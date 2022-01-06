@@ -2,39 +2,124 @@
   "Version": 1,
   "Templates": [
     {
-      "Type": "Individual",
-      "Name": "European (P-gp modified, CYP3A4 36 h)",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.1/Rifampicin-Model.json"
+      "Type": "Compound",
+      "Name": "Alfentanil",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alfentanil-Model/v2.2/Alfentanil-Model.json"
     },
     {
       "Type": "Compound",
-      "Name": "Rifampicin",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.1/Rifampicin-Model.json"
+      "Name": "Alprazolam",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Alprazolam-Model/v1.1/Alprazolam-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Amikacin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Amikacin-Model/v1.2/Amikacin.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Atazanavir",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atazanavir-Model/v1.1/Atazanavir-Model.json"
     },
     {
       "Type": "Compound",
       "Name": "Cimetidine",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.0/Cimetidine-Model.json"
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.1/Cimetidine-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Clarithromycin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clarithromycin-Model/v1.2/Clarithromycin-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Dapagliflozin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dapagliflozin-Model/v1.1/Dapagliflozin-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Efavirenz",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Efavirenz-Model/v1.1/Efavirenz-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Erythromycin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.2/Erythromycin-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Fluconazole",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluconazole-Model/v1.0/Fluconazole-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Fluvoxamine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/v1.1/Fluvoxamine-Model.json"
     },
     {
       "Type": "Compound",
       "Name": "Itraconazole",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.0/Itraconazole-Model.json"
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.3/Itraconazole-Model.json"
     },
     {
       "Type": "Compound",
       "Name": "Hydroxy-Itraconazole",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.0/Itraconazole-Model.json"
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.3/Itraconazole-Model.json"
     },
     {
       "Type": "Compound",
       "Name": "Keto-Itraconazole",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.0/Itraconazole-Model.json"
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.3/Itraconazole-Model.json"
     },
     {
       "Type": "Compound",
       "Name": "N-desalkyl-Itraconazole",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.0/Itraconazole-Model.json"
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.3/Itraconazole-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Mefenamic acid",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mefenamic-acid-Model/v1.1/Mefenamic_acid-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Midazolam",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Midazolam-Model/v1.1/Midazolam-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Montelukast",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Montelukast-Model/v1.2/Montelukast.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Raltegravir",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Raltegravir-Model/v1.2/Raltegravir-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Rifampicin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.2/Rifampicin-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Sufentanil",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sufentanil-Model/v1.2/Sufentanil.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Triazolam",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Triazolam-Model/v1.1/Triazolam-Model.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Vancomycin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Vancomycin-Model/v1.2/Vancomycin.json"
+    },
+    {
+      "Type": "Compound",
+      "Name": "Verapamil",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.2/Verapamil-Model.json"
     }
   ]
 }
