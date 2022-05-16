@@ -22,7 +22,7 @@
     {
       "Type": "Compound",
       "Name": "Atazanavir",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atazanavir-Model/v1.1/Atazanavir-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atazanavir-Model/v1.2/Atazanavir-Model.json",
       "Qualified": true
     },
     {
@@ -40,7 +40,7 @@
     {
       "Type": "Compound",
       "Name": "Dapagliflozin",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dapagliflozin-Model/v1.1/Dapagliflozin-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dapagliflozin-Model/v1.2/Dapagliflozin-Model.json",
       "Qualified": true
     },
     {
@@ -52,7 +52,13 @@
     {
       "Type": "Compound",
       "Name": "Erythromycin",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.2/Erythromycin-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Erythromycin-Model/v1.3/Erythromycin-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Ethinylestradiol",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ethinylestradiol-Model/v1.1/Ethinylestradiol-Model.json",
       "Qualified": true
     },
     {
@@ -64,7 +70,7 @@
     {
       "Type": "Compound",
       "Name": "Fluvoxamine",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/v1.1/Fluvoxamine-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Fluvoxamine-Model/v1.2/Fluvoxamine-Model.json",
       "Qualified": true
     },
     {
@@ -94,7 +100,13 @@
     {
       "Type": "Compound",
       "Name": "Mefenamic acid",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mefenamic-acid-Model/v1.1/Mefenamic_acid-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mefenamic-acid-Model/v1.2/Mefenamic_acid-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Mexiletine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Mexiletine-Model/v1.1/Mexiletine-Model.json",
       "Qualified": true
     },
     {
@@ -105,8 +117,32 @@
     },
     {
       "Type": "Compound",
+      "Name": "Moclobemide",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Moclobemide-Model/v1.1/Moclobemide-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
       "Name": "Montelukast",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Montelukast-Model/v1.2/Montelukast.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Omeprazole",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Omeprazole-Model/v1.1/Omeprazole-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Esomeprazole",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Omeprazole-Model/v1.1/Omeprazole-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "R-omeprazole",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Omeprazole-Model/v1.1/Omeprazole-Model.json",
       "Qualified": true
     },
     {
@@ -123,8 +159,20 @@
     },
     {
       "Type": "Compound",
+      "Name": "S-Mephenytoin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/S-Mephenytoin-Model/v1.1/S_Mephenytoin-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
       "Name": "Sufentanil",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sufentanil-Model/v1.2/Sufentanil.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Tizanidine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Tizanidine-Model/v1.1/Tizanidine-Model.json",
       "Qualified": true
     },
     {
