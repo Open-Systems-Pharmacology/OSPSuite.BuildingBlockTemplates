@@ -1,5 +1,5 @@
 {
-  "Version": "1.0",
+  "Version": "1.1",
   "Templates": [
     {
       "Type": "Compound",
@@ -59,6 +59,12 @@
       "Type": "Compound",
       "Name": "Ethinylestradiol",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ethinylestradiol-Model/v1.1/Ethinylestradiol-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Felodipine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Felodipine-Model/v1.0/Felodipine-Model.json",
       "Qualified": true
     },
     {
@@ -161,6 +167,12 @@
       "Type": "Compound",
       "Name": "S-Mephenytoin",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/S-Mephenytoin-Model/v1.1/S_Mephenytoin-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Sildenafil",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sildenafil-Model/v1.0/Sildenafil-Model.json",
       "Qualified": true
     },
     {
