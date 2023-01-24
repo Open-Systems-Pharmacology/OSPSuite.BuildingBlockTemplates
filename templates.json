@@ -27,6 +27,12 @@
     },
     {
       "Type": "Compound",
+      "Name": "Carbamazepine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Model/v1.2/Carbamazepine-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
       "Name": "Cimetidine",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Cimetidine-Model/v1.1/Cimetidine-Model.json",
       "Qualified": true
