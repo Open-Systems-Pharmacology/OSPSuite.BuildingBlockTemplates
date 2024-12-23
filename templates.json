@@ -262,7 +262,7 @@
     {
       "Type": "Compound",
       "Name": "dAb2",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/dAb2-Model/v1.0/dAb2_XXX.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/dAb2-Model/v1.0/dAb2.json",
       "Qualified": true
     }
   ]
