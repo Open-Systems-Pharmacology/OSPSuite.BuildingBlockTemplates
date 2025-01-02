@@ -1,6 +1,12 @@
 {
-  "Version": "1.2",
+  "Version": "1.3",
   "Templates": [
+    {
+      "Type": "Compound",
+      "Name": "7E3",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/7E3-Model/refs/tags/v1.0/7E3.json",
+      "Qualified": true
+    },
     {
       "Type": "Compound",
       "Name": "Alfentanil",
@@ -27,6 +33,18 @@
     },
     {
       "Type": "Compound",
+      "Name": "BAY794620",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/BAY794620-Model/v1.0/BAY794620.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "CDA1",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/CDA1-Model/v1.0/CDA1.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
       "Name": "Carbamazepine",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Carbamazepine-Model/v1.3/Carbamazepine-Model.json",
       "Qualified": true
@@ -47,6 +65,12 @@
       "Type": "Compound",
       "Name": "Dapagliflozin",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dapagliflozin-Model/v1.3/Dapagliflozin-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Digoxin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Digoxin-Model/v2.0/Digoxin-Model.json",
       "Qualified": true
     },
     {
@@ -87,8 +111,26 @@
     },
     {
       "Type": "Compound",
+      "Name": "Inulin",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Inulin-Model/v1.0/Inulin.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
       "Name": "Itraconazole",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Itraconazole-Model/v1.3/Itraconazole-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "MEDI524",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/MEDI524-Model/v1.0/MEDI524.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "MEDI524YTE",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/MEDI524YTE-Model/v1.0/MEDI524YTE.json",
       "Qualified": true
     },
     {
@@ -166,7 +208,7 @@
     {
       "Type": "Compound",
       "Name": "Rifampicin",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.2/Rifampicin-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rifampicin-Model/v1.3/Rifampicin-Model.json",
       "Qualified": true
     },
     {
@@ -185,6 +227,12 @@
       "Type": "Compound",
       "Name": "Sufentanil",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Sufentanil-Model/v1.2/Sufentanil.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "Tefibazumab",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Tefibazumab-Model/v1.0/Tefibazumab.json",
       "Qualified": true
     },
     {
@@ -208,7 +256,13 @@
     {
       "Type": "Compound",
       "Name": "Verapamil",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v1.2/Verapamil-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.0/Verapamil-Model.json",
+      "Qualified": true
+    },
+    {
+      "Type": "Compound",
+      "Name": "dAb2",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/dAb2-Model/v1.0/dAb2.json",
       "Qualified": true
     }
   ]
