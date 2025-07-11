@@ -1,10 +1,17 @@
 name: Check URLs in JSON
 
 on:
-  [push, pull_request]
-
-permissions:
-  contents: read
+  push:
+    paths:
+      - 'templates.json'
+    branches-ignore:
+      - main
+  pull_request:
+    paths:
+      - 'templates.json'
+    branches-ignore:
+      - main
+  workflow_dispatch:
 
 jobs:
   check-urls:

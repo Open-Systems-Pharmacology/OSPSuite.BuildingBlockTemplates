@@ -7,88 +7,26 @@ on:
     branches-ignore:
       - main
   pull_request:
-    branches-ignore:
-      - main
     paths:
       - 'templates.json'
+    branches-ignore:
+      - main
   workflow_dispatch:
 
 jobs:
-  validate:
+  validate-templates:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '20'
+          python-version: '3.x'
 
-      - name: Validate templates.json references
-        run: |
-          node <<'EOF'
-          const fs = require('fs');
-          const https = require('https');
-          const path = require('path');
+      - name: Install requests
+        run: pip install requests
 
-          function pluralize(type) {
-            // crude, works for "Compound"->"Compounds"
-            if (type.endsWith('y')) return type.slice(0, -1) + 'ies';
-            if (type.endsWith('s')) return type + 'es';
-            return type + 's';
-          }
-
-          function fetchJson(url) {
-            return new Promise((resolve, reject) => {
-              https.get(url, (res) => {
-                if (res.statusCode !== 200) {
-                  reject(new Error(`Failed to fetch ${url}: HTTP ${res.statusCode}`));
-                  return;
-                }
-                let data = '';
-                res.on('data', (chunk) => data += chunk);
-                res.on('end', () => {
-                  try {
-                    resolve(JSON.parse(data));
-                  } catch (err) {
-                    reject(new Error(`Invalid JSON from ${url}: ${err}`));
-                  }
-                });
-              }).on('error', reject);
-            });
-          }
-
-          async function main() {
-            const templates = JSON.parse(fs.readFileSync('templates.json', 'utf8')).Templates;
-            let failed = [];
-            for (const t of templates) {
-              const pluralKey = pluralize(t.Type);
-              try {
-                const targetJson = await fetchJson(t.Url);
-                const arr = targetJson[pluralKey];
-                if (!Array.isArray(arr)) {
-                  failed.push({ ...t, reason: `Missing or non-array subnode "${pluralKey}" in referenced JSON.` });
-                  continue;
-                }
-                if (!arr.some(obj => obj.Name === t.Name)) {
-                  failed.push({ ...t, reason: `No object in "${pluralKey}" has Name "${t.Name}".` });
-                  continue;
-                }
-              } catch (err) {
-                failed.push({ ...t, reason: `Error fetching/parsing: ${err.message}` });
-              }
-            }
-            if (failed.length) {
-              console.error('The following templates failed validation:\n');
-              for (const t of failed) {
-                console.error(`Type: ${t.Type}, Name: ${t.Name}, Url: ${t.Url}`);
-                console.error(`  Reason: ${t.reason}\n`);
-              }
-              process.exit(1);
-            } else {
-              console.log('All templates passed validation.');
-            }
-          }
-
-          main();
-          EOF
+      - name: Validate templates.json links and names
+        run: python .github/scripts/validate_templates.py
