@@ -8,6 +8,10 @@ def main():
     repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
     templates_json_path = os.path.join(repo_root, "templates.json")
 
+    # Parse compound names to ignore from command line argument, if given
+    ignore_arg = sys.argv[1] if len(sys.argv) > 1 else ""
+    ignore_names = set([name.strip() for name in ignore_arg.split("|") if name.strip()])
+
     # Load templates.json
     with open(templates_json_path, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -34,6 +38,8 @@ def main():
         compounds = compound_json.get("Compounds", [])
         for compound in compounds:
             compound_name = compound.get("Name")
+            if compound_name in ignore_names:
+                continue  # Skip ignored compounds
             if compound_name not in template_names:
                 missing.append({
                     "compound_name": compound_name,

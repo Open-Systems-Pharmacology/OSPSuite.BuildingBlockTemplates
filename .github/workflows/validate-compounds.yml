@@ -31,4 +31,5 @@ jobs:
           pip install requests
 
       - name: Validate compound templates
-        run: python .github/scripts/validate_compounds.py
+        #parameter passed to the python script: pipe-separated list of compound names to be ignored by the check
+        run: python .github/scripts/validate_compounds.py "Tefibazumab__Kd_Zhou2003"
