@@ -32,8 +32,8 @@ def main():
             resp.raise_for_status()
             compound_json = resp.json()
         except Exception as e:
-            print(f"Error retrieving/parsing {url}: {e}", file=sys.stderr)
-            sys.exit(1)
+            missing.append("Error parsing {url}: {e}")
+            continue  # Skip non-existing template
         # Extract compound names from referenced json
         compounds = compound_json.get("Compounds", [])
         for compound in compounds:
