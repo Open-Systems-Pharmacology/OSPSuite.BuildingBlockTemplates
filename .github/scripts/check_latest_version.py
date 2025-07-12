@@ -5,7 +5,7 @@ import sys
 import os
 
 try:
-    with open(./templates.json, "r") as file:
+    with open("./templates.json", "r") as file:
         templates = json.load(file)
 except Exception as e:
     print(f"Error reading templates.json: {str(e)}")
