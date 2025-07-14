@@ -1,4 +1,19 @@
 name: Validate Compound Templates
+# -------------------------------------------------------------------------------------
+# Overview
+# -------------------------------------------------------------------------------------
+# This workflow ensures the inclusion of ALL compounds defined in the referenced 
+# model snapshots of type "Compound".
+#
+# - Collects all referenced model snapshots with "Type": "Compound".
+# - For each such snapshot, extracts the names of all compounds.
+# - Ensures that templates.json contains an entry for each compound name found
+#   in any referenced snapshot 
+#    - User can define an exclusion list (compounds to be excluded from the check)
+# - Any missing {compound_name, referenced snapshot} combinations are printed,
+#   and the job fails.
+#
+# -------------------------------------------------------------------------------------
 
 on:
   push:
@@ -9,8 +24,6 @@ on:
   pull_request:
     paths:
       - 'templates.json'
-    branches-ignore:
-      - main
   workflow_dispatch:
 
 jobs:

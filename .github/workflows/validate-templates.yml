@@ -1,4 +1,15 @@
 name: Validate Templates
+# -------------------------------------------------------------------------------------
+# Overview
+# -------------------------------------------------------------------------------------
+# This workflow ensures the integrity of the building block templates 
+# defined in templates.json and their referenced model snapshots.
+#
+# - For each entry in templates.json, the referenced model snapshot (at "Url") must
+#   exist and contain a building block given by the combination of {"Type", "Name"}.
+# - Any templates that fail this check are listed, and the job fails.
+#
+# -------------------------------------------------------------------------------------
 
 on:
   push:
@@ -9,8 +20,6 @@ on:
   pull_request:
     paths:
       - 'templates.json'
-    branches-ignore:
-      - main
   workflow_dispatch:
 
 jobs:

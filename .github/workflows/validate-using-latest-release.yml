@@ -1,4 +1,11 @@
 name: Validate Using Latest Template Version
+# -------------------------------------------------------------------------------------
+# Overview
+# -------------------------------------------------------------------------------------
+# This workflow ensures that each template uses the (chronologically) latest release
+# from the referenced model repository. The check also includes pre-releases.
+# 
+# -------------------------------------------------------------------------------------
 
 on:
   push:
@@ -9,8 +16,6 @@ on:
   pull_request:
     paths:
       - 'templates.json'
-    branches-ignore:
-      - main
   workflow_dispatch:
 
 jobs:
