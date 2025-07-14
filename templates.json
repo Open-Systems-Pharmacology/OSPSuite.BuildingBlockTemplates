@@ -315,7 +315,7 @@
     },
     {
       "Type": "Compound",
-      "Name": "Clomiphene",
+      "Name": "(E)-N-desethylclomiphene",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/v1.0/(E)-clomiphene-DGI-Model.json",
       "Qualified": false
     },
