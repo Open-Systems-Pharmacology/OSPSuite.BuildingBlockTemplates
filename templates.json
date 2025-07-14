@@ -321,7 +321,25 @@
     },
     {
       "Type": "Compound",
-      "Name": "Coproporphyrin-I",
+      "Name": "(E)-4-hydroxyclomiphene",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/v1.0/(E)-clomiphene-DGI-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
+      "Name": "(E)-4-hydroxy-N-desethylclomiphene",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/v1.0/(E)-clomiphene-DGI-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
+      "Name": "(E)-clomiphene",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/v1.0/(E)-clomiphene-DGI-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
+      "Name": "Coproporphyrin I",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Coproporphyrin-I/v1.0/Coproporphyrin-I-Model.json",
       "Qualified": false
     },
@@ -333,13 +351,31 @@
     },
     {
       "Type": "Compound",
+      "Name": "2-Hydroxydesipramine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Desipramine-Model/v1.0/Desipramine-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
       "Name": "Furosemide",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Furosemide-Model/v1.0/Furosemide-Model.json",
       "Qualified": false
     },
     {
       "Type": "Compound",
-      "Name": "Ketoconazole",
+      "Name": "ketoconazole",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ketoconazole-Model/v1.0/Ketoconazole-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
+      "Name": "n-deacetyl-ketoconazole",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ketoconazole-Model/v1.0/Ketoconazole-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
+      "Name": "n-deacetyl-n-hydroxy-ketoconazole",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ketoconazole-Model/v1.0/Ketoconazole-Model.json",
       "Qualified": false
     },
@@ -363,12 +399,6 @@
     },
     {
       "Type": "Compound",
-      "Name": "Posaconazole",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Posaconazole-Model/v1.0/Posaconazole.json",
-      "Qualified": false
-    },
-    {
-      "Type": "Compound",
       "Name": "Probenecid",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Probenecid-Model/v1.0/Probenecid-Model.json",
       "Qualified": false
@@ -387,7 +417,19 @@
     },
     {
       "Type": "Compound",
+      "Name": "3-Hydroxyquinidine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Quinidine-Model/v1.0/Quinidine-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
       "Name": "Risperidone",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Risperidone-Model/v1.0/Risperidone-model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
+      "Name": "9-Hydroxyrisperidone",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Risperidone-Model/v1.0/Risperidone-model.json",
       "Qualified": false
     },
@@ -395,12 +437,6 @@
       "Type": "Compound",
       "Name": "Rosuvastatin",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Rosuvastatin-Model/v1.0/Rosuvastatin-Model.json",
-      "Qualified": false
-    },
-    {
-      "Type": "Compound",
-      "Name": "Ruxolitinib",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ruxolitinib-Model/v1.0/Ruxolitinib.json",
       "Qualified": false
     },
     {
