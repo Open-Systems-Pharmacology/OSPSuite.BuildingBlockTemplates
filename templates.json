@@ -22,7 +22,7 @@
     {
       "Type": "Compound",
       "Name": "Amikacin",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Amikacin-Model/v2.0/Amikacin.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Amikacin-Model/v2.0/Amikacin-Model.json",
       "Qualified": true
     },
     {
@@ -310,19 +310,19 @@
     {
       "Type": "Compound",
       "Name": "Atomoxetine",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atomoxetine-Model/v1.0/Atomoxetine-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Atomoxetine-Model/v1.0/Atomoxetine-model.json",
       "Qualified": false
     },
     {
       "Type": "Compound",
       "Name": "Clomiphene",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/v1.0/Clomiphene-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Clomiphene-Model/v1.0/(E)-clomiphene-DGI-Model.json",
       "Qualified": false
     },
     {
       "Type": "Compound",
       "Name": "Coproporphyrin-I",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Coproporphyrin-I-Model/v1.0/Coproporphyrin-I-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Coproporphyrin-I/v1.0/Coproporphyrin-I-Model.json",
       "Qualified": false
     },
     {
@@ -352,7 +352,7 @@
     {
       "Type": "Compound",
       "Name": "Paroxetine",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Model/v1.0/Paroxetine-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Model/v1.0/paroxetine-model.json",
       "Qualified": false
     },
     {
@@ -364,7 +364,7 @@
     {
       "Type": "Compound",
       "Name": "Posaconazole",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Posaconazole-Model/v1.0/Posaconazole-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Posaconazole-Model/v1.0/Posaconazole.json",
       "Qualified": false
     },
     {
@@ -388,7 +388,7 @@
     {
       "Type": "Compound",
       "Name": "Risperidone",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Risperidone-Model/v1.0/Risperidone-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Risperidone-Model/v1.0/Risperidone-model.json",
       "Qualified": false
     },
     {
@@ -400,7 +400,7 @@
     {
       "Type": "Compound",
       "Name": "Ruxolitinib",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ruxolitinib-Model/v1.0/Ruxolitinib-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Ruxolitinib-Model/v1.0/Ruxolitinib.json",
       "Qualified": false
     },
     {
