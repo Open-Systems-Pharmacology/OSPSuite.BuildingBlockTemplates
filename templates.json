@@ -387,6 +387,12 @@
     },
     {
       "Type": "Compound",
+      "Name": "Olanzapine",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Olanzapine-Model/v1.0/Olanzapine-Model.json",
+      "Qualified": false
+    },
+    {
+      "Type": "Compound",
       "Name": "Paroxetine",
       "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Paroxetine-Model/v1.0/paroxetine-model.json",
       "Qualified": false
