@@ -268,37 +268,37 @@
     {
       "Type": "Compound",
       "Name": "R-Verapamil",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.2/Verapamil-Model.json",
       "Qualified": true
     },
     {
       "Type": "Compound",
       "Name": "S-Verapamil",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.2/Verapamil-Model.json",
       "Qualified": true
     },
     {
       "Type": "Compound",
       "Name": "R-Norverapamil",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.2/Verapamil-Model.json",
       "Qualified": true
     },
     {
       "Type": "Compound",
       "Name": "S-Norverapamil",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.2/Verapamil-Model.json",
       "Qualified": true
     },
     {
       "Type": "Compound",
       "Name": "Sum-Verapamil",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.2/Verapamil-Model.json",
       "Qualified": true
     },
     {
       "Type": "Compound",
       "Name": "Sum-Norverapamil",
-      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.1/Verapamil-Model.json",
+      "Url": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Verapamil-Model/v2.2/Verapamil-Model.json",
       "Qualified": true
     },
     {
