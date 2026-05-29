@@ -1,4 +1,5 @@
 ---
+name: find-missing-models
 description: "Find public OSP model repositories in the Open-Systems-Pharmacology GitHub organization that are not yet referenced in templates.json and have at least one release."
 ---
 
